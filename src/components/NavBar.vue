@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"> <router-link to="/">Home</router-link> </a>
+                        <a class="nav-link"> <router-link to="/" @click="refresh()">Home</router-link> </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"> <router-link to="/about">About</router-link> </a>
