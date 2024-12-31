@@ -46,7 +46,7 @@
                         </a>
 
                         <ul class="dropdown-menu bg-dark">
-                            <li @click="refresh()">
+                            <li @click="refresh()" style="display: none;">
                                 <a class="nav-link"> <router-link to="/MultiSlider"> Multi Slider </router-link> </a>
                             </li>
                             <li v-for="(data, index) in profiles" :key="index">

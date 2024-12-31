@@ -10,7 +10,7 @@
                 <div class="card-body bg-dark text-light">
                     <h5> {{ data.name }} </h5>
                     <h6> {{ data.desig }} </h6>
-                    <p>  {{ data.degree }} </p>
+                    <p> {{ data.degree }} </p>
                 </div>
             </div>
 
