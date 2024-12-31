@@ -19,6 +19,7 @@ import MultiSlider from "@/components/MultiSlider.vue";
 
 
 const routes = [
+ 
   {
     path: "/",
     name: "HomePage",
